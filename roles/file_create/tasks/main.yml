@@ -1,0 +1,8 @@
+---
+# tasks file for file_create
+- name: Create new file
+  my_own_namespace.my_own_collection.my_own_module:
+    path: "{{ path_to_file }}"
+    name: "{{ file_name }}"
+    content: "{{ file_content }}"
+  tags: test

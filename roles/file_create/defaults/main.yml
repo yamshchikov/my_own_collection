@@ -1,0 +1,5 @@
+---
+# defaults file for file_create
+path_to_file: "/tmp/"
+file_name: "test"
+file_content: "Hello World!!!"
